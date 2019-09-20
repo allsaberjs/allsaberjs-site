@@ -1,6 +1,6 @@
 # [allsaberjs]()
 
-作者：[xudengwei](https://github.com/frankshin)
+作者：[易水](https://github.com/frankshin)
 
 ## 目录
 1. [前言](#README)
