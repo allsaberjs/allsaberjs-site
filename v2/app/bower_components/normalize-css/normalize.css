@@ -427,10 +427,4 @@ th {
 
 .selectv{
   margin-top: 10px;
-  width: 120px;
-  text-align: center;
-}
-.selectv option{
-  text-align: center;
-  width: 100%;
 }
