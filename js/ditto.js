@@ -102,7 +102,7 @@ function init_sidebar_section() {
 function init_searchbar() {
   var search = '<form class="searchBox" onSubmit="return searchbar_listener()">' +
     '<input name="search" type="search">' +
-    '<input type="image" class="searchButton" src="images/magnifier.jpg" alt="Search" />' +
+    '<input type="image" class="searchButton" src="../images/magnifier.jpg" alt="Search" />' +
     '</form>' +
     selectVersions();
   $(ditto.sidebar_id).find('h2').first().before($(search));
@@ -348,7 +348,7 @@ function router() {
       window.disqus_shortname = 'allsaberjs';
       window.disqus_identifier = (location.hash ? location.hash.replace("#", "") : 'READEME');
       window.disqus_title = $(ditto.content_id + " h1").text();
-      window.disqus_url = 'http://allsaberjs.ruanyifeng.com/' + (location.hash ? location.hash.replace("#", "") : 'README');
+      window.disqus_url = 'http://allsaberjs.github.com/' + (location.hash ? location.hash.replace("#", "") : 'README');
 
       // 插入评论代码
       (function() {
